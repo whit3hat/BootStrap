@@ -4,28 +4,54 @@
     <title>Profile</title>
 <!--Link to BootStrap CSS-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!--Link to local CSS-->
 <link rel="stylesheet" type="text/css" href="./assests/css/stylesheet.css">  
-  </head>
+<!--Link to Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Coustard&display=swap" rel="stylesheet">
+<!--Font Awesome-->
+<script src="https://kit.fontawesome.com/87a8d99831.js" crossorigin="anonymous"></script>
+</head>
       <body>
-        <!--Nav Bar-->
-        <nav class="navbar navbar-light bg-light">
-            <span class="navbar-brand mb-0 h1">Spencer Wood</span>
-            <ul  class = "nav justify-content-end">
-            <li><a href="./index.html"> Profile |</a></li>
-           <li><a href="./portfolio.html">Portfolio |</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            </ul>
-          </nav>
-          <!--Nav Bar-->
-
+     
+        <!--Main Navigation-->
+<header>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <a class="navbar-brand"><strong>Spencer Wood</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Profile <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link"><i class="fab fa-github fa-lg"></i></a>
+        </li>
+          <li class="nav-item">
+         <a class="nav-link"><i class="fab fa-linkedin fa-lg"></i></a>
+         <li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!--Main Navigation-->
         <!--Container for Body-->
-        <div class = "wrapper">
-        <div class="container content">
+           <div class="container-fluid">
             <div class="row">
-              <div class="col-md-3" class="col-">
-                <img src="./assests/photo.png" width="250px" height="250"> 
+              <div class="col">
+                <img id = 'bioPic' src="./assests/bio_pic.jpg"> 
               </div>
-              <div class="col-md-9">
+              <div class="col">
                  <p>
                     I'm a husband, father of 2 children who is currently working full-time and has an unheathly obsession with memes and sour candy.<br><br> I'm taking the coding bootcamp because coding has been something that has always interested me and I'm looking to start a new career upon completion.
                     In my freetime I enjoy watching movies with my family or alone.  I also enjoy lifting weights in my newly completed garage gym. <br><br>Sometimes when I get downtime before bed I enjoy surfing social media or Reddit for a good laugh.
@@ -33,14 +59,15 @@
               </div>
             </div>
         </div>
-      </div>
-        <!--Footer-->
-        <footer class="footer" style="position: absolute; bottom: 0; width: 100%; height: 60px; line-height: 60px; background-color: #666666; text-align: center;">
-            <div class="container">
-                <span class="text-muted">Copywrite &copy;</span>
-            </div>
-        </footer>
-      <!--Footer-->
+        <!-- Footer -->
+<footer class="page-footer font-small blue fixed-bottom">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright</div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
         
         <!--JavaScript link for BootStrap-->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
