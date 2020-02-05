@@ -25,11 +25,8 @@ header {
     width: 250px;
 }
 
-.content-portfolio {
-    width: 960px;
-    height: 728px;
-    margin: 0 auto;
-    background: #ffffff;
+#portfolio_top {
+    padding-bottom: 20px;
 }
 /* Footer and Content */
 
